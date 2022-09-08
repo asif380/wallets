@@ -1803,7 +1803,7 @@ button:active {
     /* (A2) COSMETICS */
     /* background-image:  linear-gradient(#141313d6,#131212d9),url(../hero_bg.jpg); */
     /* background-image:  linear-gradient(#3b77f8d6,#040505d9),url(../hero_bg.jpg); */
-    background-image:  linear-gradient(33deg, rgba(241, 165, 50, 0.767) 56%,  rgba(247, 166, 44, 0) 94%),url(../hero_bg.jpg);
+    background-image:  linear-gradient(33deg, rgba(245, 163, 40, 0.541) 56%,  rgba(247, 166, 44, 0) 94%),url(../hero_bg.jpg);
     background-repeat: no-repeat;
     width: 100%;
     background-size: cover;
