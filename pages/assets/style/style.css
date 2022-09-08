@@ -48,14 +48,15 @@ h1.main_title {
     text-transform: capitalize;
     display: flex;
     align-items: center;
-    border: 1px solid #F9AE2B;
+    border: 1px solid #f1f1f1;
     margin:-200px auto;
     
 
 }
 .main_btn:hover{
-   
+   /* border: none; */
     color: #ffff;
+    /* box-shadow: 2px 2px 15px 2px #cfba5b; */
 }
 pre {
     display: block;
@@ -94,11 +95,13 @@ button {
 }
 
 button:hover {
-    color: rgba(255, 255, 255, 0.95);
+     /* color: rgba(255, 255, 255, 0.95);
     background-color: #380c6a;
-    border-color: #380c6a;
-    border-width: 1px;
-    border-style: solid;
+    border-color: #380c6a; */
+    /* border-width: 1px; 
+    border-style: solid;  */
+    border: none;
+    box-shadow: rgb(9 9 12 / 56%) 0px 4px 16px, rgb(4 4 6 / 57%) 0px 8px 32px
 }
 
 button:focus,
@@ -746,7 +749,7 @@ button:active {
         transition: all .2s ease-out;
     }
     .pivx-button-big:hover{
-        background-color: #F9AE2B;
+        /* background-color: #F9AE2B; */
     }
     .button-padd {
         display: inline-block;
@@ -1799,7 +1802,8 @@ button:active {
   
     /* (A2) COSMETICS */
     /* background-image:  linear-gradient(#141313d6,#131212d9),url(../hero_bg.jpg); */
-    background-image:  linear-gradient(#3b77f8d6,#040505d9),url(../hero_bg.jpg);
+    /* background-image:  linear-gradient(#3b77f8d6,#040505d9),url(../hero_bg.jpg); */
+    background-image:  linear-gradient(33deg, rgba(241, 165, 50, 0.767) 56%,  rgba(247, 166, 44, 0) 94%),url(../hero_bg.jpg);
     background-repeat: no-repeat;
     width: 100%;
     background-size: cover;
@@ -1810,7 +1814,7 @@ button:active {
   .hmove {
     display: flex;
     position: relative;
-    top: 200px; right: 0;
+    top: 100px; right: 0;
    
   }
   
@@ -1853,4 +1857,9 @@ animation-delay: 0.5s;
   }
   .m_tit{
     text-align: center;
+  }
+  .home_icon img{
+    width: 180px;
+    height: auto;
+    padding: 10px;
   }
