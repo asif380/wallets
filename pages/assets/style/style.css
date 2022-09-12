@@ -1863,3 +1863,11 @@ animation-delay: 0.5s;
     height: auto;
     padding: 10px;
   }
+  #generateWallet{
+    background-image:linear-gradient(rgba(15, 15, 15, 0.603),rgba(0, 0, 0, 0.719)), url(../bg\ .png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+    
+  }
