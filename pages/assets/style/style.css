@@ -874,7 +874,7 @@ button:active {
         transition: all .2s ease-out;
     }
 
-        .buttoni-icon svg {
+        .buttoni-icon img {
             display: block;
             width: auto;
             height: 24px;
@@ -1864,9 +1864,9 @@ animation-delay: 0.5s;
     padding: 10px;
   }
   #generateWallet{
-    background-image:linear-gradient(rgba(15, 15, 15, 0.603),rgba(0, 0, 0, 0.719)), url(../bg\ .png);
+    background-image:linear-gradient(rgba(15, 15, 15, 0.774),rgba(0, 0, 0, 0.719)), url(../dash.webp);
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     
     
