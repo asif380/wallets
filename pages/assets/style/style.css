@@ -1864,7 +1864,7 @@ animation-delay: 0.5s;
     padding: 10px;
   }
   #generateWallet{
-    background-image:linear-gradient(rgba(15, 15, 15, 0.774),rgba(0, 0, 0, 0.719)), url(../dash1.jpg);
+    background-image:linear-gradient(rgba(15, 15, 15, 0.774),rgba(0, 0, 0, 0.719)), url(../rebellightwallet1.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1872,7 +1872,7 @@ animation-delay: 0.5s;
     
   }
   #generateVanityWallet{
-    background-image:linear-gradient(rgba(15, 15, 15, 0.774),rgba(0, 0, 0, 0.719)), url(../dash2.webp);
+    background-image:linear-gradient(rgba(15, 15, 15, 0.774),rgba(0, 0, 0, 0.719)), url(../rebellightwallet2.webp);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1880,7 +1880,7 @@ animation-delay: 0.5s;
     
   }
   #accessWallet{
-    background-image:linear-gradient(rgba(15, 15, 15, 0.774),rgba(0, 0, 0, 0.719)), url(../dash3.jpg);
+    background-image:linear-gradient(rgba(15, 15, 15, 0.774),rgba(0, 0, 0, 0.719)), url(../rebellightwallet3.jpg);
     background-position: auto;
     background-size: cover;
     background-repeat: no-repeat;
