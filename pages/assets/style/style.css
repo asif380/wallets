@@ -1821,10 +1821,14 @@ button:active {
   /* (C) SLIDES - FORCE INTO ONE LONG HORIZONTAL ROW */
   .hslide {
     width: 100%;
-    flex-shrink: 0;
     box-sizing: border-box;
-    padding: 10px;
-  }
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 58vh;
+}
+  
   
   /* (D) SLIDE ANIMATION */
    @keyframes slideh {
@@ -1857,6 +1861,7 @@ animation-delay: 0.5s;
   }
   .m_tit{
     text-align: center;
+    color: white;
   }
   .home_icon img{
     width: 180px;
@@ -1887,3 +1892,25 @@ animation-delay: 0.5s;
     
     
   }
+  .carousel-control-next, .carousel-control-prev{
+    display: none !important;
+  }
+  .carousel-indicators li{
+    height: 9px;
+    width: 9px;
+    border-radius: 100%;
+    background-color:white;
+  }
+  .carousel-indicators .active {
+    opacity: 1;
+    background-color:#F9AE2B !important;
+}
+
+.carousel-inner > .item {
+    position: relative;
+    display: none;
+    -webkit-transition: 0.6s ease-in-out left !important;
+    -moz-transition: 0.6s ease-in-out left !important;
+    -o-transition: 0.6s ease-in-out left !important;
+    transition: 0.1s ease-in-out left !important;
+}
