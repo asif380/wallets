@@ -323,11 +323,13 @@ button:active {
 
         /* Create an active/current tablink class */
         .tab button.active {
-            background-color: #b088ff !important;
+            /* background-color: #b088ff !important; */
+            background-color: #F8AB2C !important;
         }
 
     .active {
-        color: #b088ff !important;
+        /* color: #b088ff !important; */
+        color: #F8AB2C !important;
     }
 
     /* Style the tab content */
@@ -1870,7 +1872,7 @@ animation-delay: 0.5s;
   }
   #generateWallet{
     background-image:linear-gradient(rgba(15, 15, 15, 0.774),rgba(0, 0, 0, 0.719)), url(../rebellightwallet1.jpg);
-    background-position: center;
+    background-position:  center;
     background-size: cover;
     background-repeat: no-repeat;
     
@@ -1886,7 +1888,7 @@ animation-delay: 0.5s;
   }
   #accessWallet{
     background-image:linear-gradient(rgba(15, 15, 15, 0.774),rgba(0, 0, 0, 0.719)), url(../rebellightwallet3.jpg);
-    background-position: auto;
+    background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
     
