@@ -84,11 +84,11 @@ button {
     color: rgba(255, 255, 255, 0.65);
     border-radius: 15px;
     padding: 12px 25px 12px;
-    background-color: #380c6a;
+    /* background-color: #380c6a; */
     border-style: solid;
     border-width: 1px;
     margin: 1px;
-    border-color: #7300ff;
+    /* border-color: #7300ff; */
     text-align: center;
     font-size: 16px;
     outline: 0;
@@ -108,7 +108,7 @@ button:focus,
 button:active {
     outline: none !important;
     box-shadow: none;
-    border-color: #7300ff;
+    border-color: #F8AB2C;
     border-width: 1px;
     border-style: solid;
 }
@@ -1034,6 +1034,7 @@ button:active {
     #submit-button.pivx-button-big {
         width: auto !important;
         padding: 14px 90px;
+        outline: none;
     }
 
 
@@ -1800,7 +1801,7 @@ button:active {
 .hwrap {
     /* (A1) DIMENSIONS */
     width: 100%;
-    height: 650px; /* OPTIONAL */
+    height:100vh; /* OPTIONAL */
   
     /* (A2) COSMETICS */
     /* background-image:  linear-gradient(#141313d6,#131212d9),url(../hero_bg.jpg); */
