@@ -111,7 +111,7 @@ var sendTransaction = function (hex, msg = '') {
             if (domAddress1s.value !== donationAddress)
                 domTxOutput.innerHTML = ('<h4 style="color:green; font-family:mono !important;">' + data.result + '</h4>');
             else
-                domTxOutput.innerHTML = ('<h4 style="color:green">Thank you for supporting MyPIVXWallet! 💜💜💜<br><span style="font-family:mono !important">' + data.result + '</span></h4>');
+                domTxOutput.innerHTML = ('<h4 style="color:green">Thank you for supporting MyREBELlightWallet! 💜💜💜<br><span style="font-family:mono !important">' + data.result + '</span></h4>');
             domSimpleTXs.style.display = 'none';
             domAddress1s.value = '';
             domValue1s.innerHTML = '';
