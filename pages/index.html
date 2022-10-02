@@ -1121,7 +1121,7 @@
             nLen >= 4 ? 0 : 2
           );
           domAvailToDelegate.innerText =
-            "Available: ~" + (nBalance / COIN).toFixed(2) + " PIV";
+            "Available: ~" + (nBalance / COIN).toFixed(2) + " RBL";
         }
 
         return nBalance;
@@ -1138,7 +1138,7 @@
               ? "large"
               : "x-large";
           domAvailToUndelegate.innerText =
-            "Staking: ~" + (nBalance / COIN).toFixed(2) + " PIV";
+            "Staking: ~" + (nBalance / COIN).toFixed(2) + " RBL";
         }
 
         return nBalance;
@@ -1294,7 +1294,7 @@
           encryptWallet(strPass);
           createAlert(
             "success",
-            "<b>You're Secured! 🔐</b><br>Nice stuff, Armoured PIVian!",
+            "<b>You're Secured! 🔐</b><br>Nice stuff, Armoured RBLian!",
             5500
           );
         }
@@ -1423,7 +1423,7 @@
           document.getElementById("undelegateAmount").value
         );
         if (nAmount < 0.01)
-          return createAlert("warning", "Minimum amount is 0.01 PIV!", 2000);
+          return createAlert("warning", "Minimum amount is 0.01 RBL!", 2000);
         undelegate(nAmount);
       }
       function undelegate(value) {
@@ -1454,7 +1454,7 @@
               (nBalance - value).toFixed(8) +
               ")"
           );
-        console.log("Constructing TX of value: " + value + " PIV");
+        console.log("Constructing TX of value: " + value + " RBL");
         // Loop our cached UTXOs and construct a TX
         const cTx = bitjs.transaction();
         let txValue = 0;
@@ -1466,7 +1466,7 @@
                 cTx.inputs.length +
                 " input(s) (" +
                 txValue +
-                " PIV)"
+                " RBL)"
             );
             break;
           }
@@ -1479,7 +1479,7 @@
               UTXO.vout +
               ")... (Added " +
               (UTXO.sats / COIN).toFixed(8) +
-              " PIV - Total: " +
+              " RBL - Total: " +
               txValue +
               ")"
           );
@@ -1547,7 +1547,7 @@
               totalSent
           );
           alert(
-            "You are trying to undelegate more than you have, don't forget blockchain fees! Removing ~0.001 PIV will do fine."
+            "You are trying to undelegate more than you have, don't forget blockchain fees! Removing ~0.001 RBL will do fine."
           );
         }
       }
@@ -1569,7 +1569,7 @@
         if (nAmount < 1)
           return createAlert(
             "warning",
-            "Minimum Staking amount is 1 PIV!",
+            "Minimum Staking amount is 1 RBL!",
             2000
           );
 
@@ -1610,7 +1610,7 @@
               (nBalance - value).toFixed(8) +
               ")"
           );
-        console.log("Constructing TX of value: " + value + " PIV");
+        console.log("Constructing TX of value: " + value + " RBL");
         // Loop our cached UTXOs and construct a TX
         const cTx = bitjs.transaction();
         let txValue = 0;
@@ -1622,7 +1622,7 @@
                 cTx.inputs.length +
                 " input(s) (" +
                 txValue +
-                " PIV)"
+                " RBL)"
             );
             break;
           }
@@ -1635,7 +1635,7 @@
               UTXO.vout +
               ")... (Added " +
               (UTXO.sats / COIN).toFixed(8) +
-              " PIV - Total: " +
+              " RBL - Total: " +
               txValue +
               ")"
           );
@@ -1678,7 +1678,7 @@
               totalSent
           );
           alert(
-            "You are trying to delegate more than you have, don't forget blockchain fees! Removing ~0.001 PIV will do fine."
+            "You are trying to delegate more than you have, don't forget blockchain fees! Removing ~0.001 RBL will do fine."
           );
         }
       }
@@ -1704,7 +1704,7 @@
               (nBalance - value).toFixed(8) +
               ")"
           );
-        console.log("Constructing TX of value: " + value + " PIV");
+        console.log("Constructing TX of value: " + value + " RBL");
         // Loop our cached UTXOs and construct a TX
         const cTx = bitjs.transaction();
         let txValue = 0;
@@ -1716,7 +1716,7 @@
                 cTx.inputs.length +
                 " input(s) (" +
                 txValue +
-                " PIV)"
+                " RBL)"
             );
             break;
           }
@@ -1729,7 +1729,7 @@
               UTXO.vout +
               ")... (Added " +
               (UTXO.sats / COIN).toFixed(8) +
-              " PIV - Total: " +
+              " RBL - Total: " +
               txValue +
               ")"
           );
@@ -1819,7 +1819,7 @@
               (nBalance - value).toFixed(8) +
               ")"
           );
-        console.log("Constructing TX of value: " + value + " PIV");
+        console.log("Constructing TX of value: " + value + " RBL");
         // Loop our cached UTXOs and construct a TX
         const cTx = bitjs.transaction();
         let txValue = 0;
@@ -1831,7 +1831,7 @@
                 cTx.inputs.length +
                 " input(s) (" +
                 txValue +
-                " PIV)"
+                " RBL)"
             );
             break;
           }
@@ -1844,7 +1844,7 @@
               UTXO.vout +
               ")... (Added " +
               (UTXO.sats / COIN).toFixed(8) +
-              " PIV - Total: " +
+              " RBL - Total: " +
               txValue +
               ")"
           );
