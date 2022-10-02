@@ -94,7 +94,7 @@
       // These below params share the same names as the CPP params, so finding and editing these is easy-peasy!
 
       /* chainparams */
-      const PUBKEY_PREFIX = "D";
+      const PUBKEY_PREFIX = "R";
       const PUBKEY_ADDRESS = 30;
       const SECRET_KEY = 212;
       const COIN = 1e8;
@@ -1337,6 +1337,7 @@
         ) {
           // No prefix, display the intro!
           domPrefix.placeholder = "Custom Prefix (" + PUBKEY_PREFIX + " ...)";
+   
           domPrefix.style.display = "block";
           domGenKeyWarning.style.display = "none";
           domPrivateTxt.innerHTML = "~";
